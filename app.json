@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/about/about",
+    "pages/home/home"
+  ],
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "home",
+      "iconPath": "assets/img/play.png",
+      "selectedIconPath": "assets/img/search.png"
+      
+    },
+    {
+      "pagePath": "pages/about/about",
+      "text": "about",
+      "iconPath": "assets/img/play.png",
+      "selectedIconPath": "assets/img/search.png"
+    }]
+  },
+  "sitemapLocation": "sitemap90.json"
+}
