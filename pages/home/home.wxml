@@ -1,6 +1,7 @@
 <!--pages/home/home.wxml-->
 <view class="home">
     <view>this is home</view>
+    <view>second</view>
     <button size="mini" bind:tap="sayHello">home btn</button>
 </view>
 
