@@ -1,0 +1,9 @@
+<!--pages/text/text.wxml-->
+<text>pages/text/text.wxml</text>
+<text selectable>text标签不会换行 类似span</text>
+<text>想要换行要手动加 \n</text>
+<text >test    test\n</text>
+<text space="ensp">test    test\n</text>
+<text space="emsp">test    test\n</text>
+<text space="nbsp">test    test\n</text>
+<text decode>5 &gt;&nbsp;3</text>

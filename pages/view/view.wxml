@@ -1,0 +1,12 @@
+<!--pages/view/view.wxml-->
+<view class="box">view类似div 块级元素</view>
+<view hover-class="box">
+  hover-class按下去时添加类
+</view>
+<view hover-class="box" hover-start-time="500" hover-stay-time="10">
+  hover-class按下去时添加类
+</view>
+
+<view class="box1" hover-class="box2" >
+  <view class="box" hover-class="box1">1</view>
+</view>

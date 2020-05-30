@@ -1,0 +1,5 @@
+<!--pages/button/button.wxml-->
+<text>pages/button/button.wxml</text>
+<button size="mini" plain type="warn" hover-class="button-hover111">button基本使用</button>
+<button size="mini" plain type="warn" disabled="{{false}}" loading hover-class="13c">button基本使用</button>
+ 

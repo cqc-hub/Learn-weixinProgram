@@ -1,0 +1,13 @@
+<!--pages/image/image.wxml-->
+<!-- <view>image基本使用</view> -->
+<!-- 相对路径 -->
+<image src="../../assets/img/a.jpg"  lazy-load show-menu-by-longpress/>
+<!-- 绝对路径 -->
+<image src="/assets/img/a.jpg"  lazy-load mode="aspectFit"/>
+<!-- 远程图片 -->
+<image src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"  lazy-load/>
+<!-- 相册中图片 -->
+<button bindtap="handleChooseAlbum">选中图片</button>
+<view wx:for="{{selImgs}}" wx:key="item">
+  <image src="{{item.path}}" lazy-load bindload="finishpic" ></image>
+</view>
